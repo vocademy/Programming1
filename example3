@@ -1,0 +1,4 @@
+# User input makes the program more useful
+width = input("Enter the width:")
+length = input("Enter the length:")
+print "The area of the room is", width * length
