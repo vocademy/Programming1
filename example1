@@ -1,0 +1,2 @@
+# width=5  length=12
+print 5 * 12
