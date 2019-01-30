@@ -1,0 +1,4 @@
+# Variables make the code easier to understand
+width = 5
+length = 12
+print width * length
