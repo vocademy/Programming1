@@ -1,0 +1,16 @@
+# Run until a negative number is input
+def get_area(w, l):
+    return w * l
+
+width = input("Enter the width:")
+length = input("Enter the length:")
+while width >= 0 and length >= 0:
+    if width == 0:
+        print "Error, invalid width"
+    elif length == 0:
+        print "Error, invalid length"
+    else:
+        area = get_area(width, length)
+        print "The area of the room is", area
+    width = input("Enter the width:")
+    length = input("Enter the length:")
