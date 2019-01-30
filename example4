@@ -1,0 +1,7 @@
+# Functions allow you to reuse code
+def get_area():
+    width = input("Enter the width:")
+    length = input("Enter the length:")
+    print "The area of the room is", width * length
+
+get_area()
