@@ -1,0 +1,8 @@
+# Parameters help to modularize your code
+def get_area(w, l):
+    return w * l
+
+width = input("Enter the width:")
+length = input("Enter the length:")
+area = get_area(width, length)
+print "The area of the room is", area
