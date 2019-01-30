@@ -1,4 +1,3 @@
-# Run until a negative number is input
 def get_area(w, l):
     return w * l
 
