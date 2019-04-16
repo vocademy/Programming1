@@ -1,0 +1,24 @@
+# Print out all rooms at the end with room number
+
+def get_area(w, l):
+    return w * l
+
+rooms = []
+width = input("Enter the width:")
+length = input("Enter the length:")
+
+while width >= 0 and length >= 0:
+    if width == 0:
+        print "Error, invalid width"
+    elif length == 0:
+        print "Error, invalid length"
+    else:
+        area = get_area(width, length)
+        rooms.append(area)
+    width = input("Enter the width:")
+    length = input("Enter the length:")
+
+index = 0
+for room in rooms:
+    index = index + 1
+    print "room #", index, " has an area of ", room
